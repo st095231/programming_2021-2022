@@ -7,9 +7,10 @@ int main(int argc, char* argv[]) {
 	int n = 0;
 	int m = 0;
 	int temp = 0;
+
 	bool* a = (bool*)malloc(limit * sizeof(bool));
 	bool* b = (bool*)malloc(limit * sizeof(bool));
-	for (int i = 0; i <= limit; i++) {
+	for (int i = 0; i < limit; i++) {
 		a[i] = 0;
 		b[i] = 0;
 	}

@@ -7,6 +7,7 @@ int main(int argc, char* argv[]) {
 	int temp = 0;
 	int min = 0;
 	int max = 0;
+
 	cin >> n;
 	int* p = (int*)malloc(n * sizeof(int));
 	for (int i = 0; i < n; i++) {
