@@ -8,5 +8,5 @@ int main(int argc, char* agrv[]) {
 	cin >> a;
 	cout << a / 2 * 2 + 2;
 
-	EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }

@@ -10,5 +10,5 @@ int main(int argc, char* agrv[]) {
 	sqr_x = x * x;
 	cout << (sqr_x + x) * sqr_x + sqr_x + x + 1;
 
-	EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }

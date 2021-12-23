@@ -9,5 +9,5 @@ int main(int argc, char* agrv[]) {
 	cin >> v >> t;
 	cout << ((v * t % 109) + 109) % 109;
 
-	EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }

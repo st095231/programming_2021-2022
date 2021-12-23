@@ -9,5 +9,5 @@ int main(int argc, char* agrv[]) {
 	cin >> n >> k;
 	cout << k % n;
 
-	EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }

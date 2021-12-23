@@ -15,5 +15,5 @@ int main(int argc, char* agrv[]) {
 	s2 = h2 * 3600 + m2 * 60 + s2;
 	cout << s2 - s1;
 
-	EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
