@@ -9,15 +9,15 @@ int main(int argc, char* agrv[]) {
 	int b = n % 10; n = n / 10;
 	int a = n % 10; n = n / 10;
 	switch (a) {
-	case 1: {cout << "сто "; break;	}
-	case 2: {cout << "двести "; break; }
-	case 3: {cout << "триста "; break; }
-	case 4: {cout << "четыреста "; break; }
-	case 5: {cout << "пятьсот "; break; }
-	case 6: {cout << "шестьсот "; break; }
-	case 7: {cout << "семьсот "; break; }
-	case 8: {cout << "восемьсот "; break; }
-	case 9: {cout << "девятьсот "; break; }
+		case 1: {cout << "сто "; break;	}
+		case 2: {cout << "двести "; break; }
+		case 3: {cout << "триста "; break; }
+		case 4: {cout << "четыреста "; break; }
+		case 5: {cout << "пятьсот "; break; }
+		case 6: {cout << "шестьсот "; break; }
+		case 7: {cout << "семьсот "; break; }
+		case 8: {cout << "восемьсот "; break; }
+		case 9: {cout << "девятьсот "; break; }
 	}
 	switch (b * 10 + c) {
 		case 11: {cout << "одиннадцать бананов"; break; }
@@ -53,7 +53,7 @@ int main(int argc, char* agrv[]) {
 				case 8: {cout << "восемь бананов"; break; }
 				case 9: {cout << "девять бананов"; break; }
 			}
-	}
+		}
 	}
 	return EXIT_SUCCESS;
 }
